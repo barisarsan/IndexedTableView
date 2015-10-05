@@ -17,9 +17,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
+    
     content = [DataGenerator wordsFromLetters];
     indices = [content valueForKey:@"headerTitle"];
+    
+    NSLog(@"Contact -> Baris Arsan / ba.barisarsan@gmail.com");
 }
 
 - (void)didReceiveMemoryWarning {
